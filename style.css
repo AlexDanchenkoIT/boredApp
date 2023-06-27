@@ -1,0 +1,48 @@
+html {
+  min-height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 47.62%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Inter;
+}
+
+.title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text {
+  margin: 80px 0;
+  color: #000;
+  font-size: 40px;
+  font-family: Inter;
+}
+
+.btn {
+  width: 500px;
+  background-color: #0094ff;
+  color: wheat;
+  text-align: center;
+  font-size: 32px;
+  line-height: 60px;
+  font-family: Inter;
+  cursor: pointer;
+}
+
+.ifGetResponse {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 176, 28, 0.2) 24.48%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
