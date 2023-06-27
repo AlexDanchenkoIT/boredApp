@@ -5,7 +5,7 @@ const backGroundNode = document.querySelector('html');
 const notBoredText = 'Ура, теперь не скучно 🔥';
 
 btnNode.addEventListener('click', function(){
-  fetch("http://www.boredapi.com/api/activity/")
+  fetch("http://www.boredapi.com/api/activity")
   .then(response => response.json())
   .then((res) => {
   textNode.innerText = res.activity;
