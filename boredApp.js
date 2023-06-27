@@ -6,10 +6,10 @@ const notBoredText = 'Ура, теперь не скучно 🔥';
 
 btnNode.addEventListener('click', function(){
   fetch("http://www.boredapi.com/api/activity")
-  .then(response => response.json())
-  .then((res) => {
-  textNode.innerText = res.activity;
-  titleNode.innerText = notBoredText;
-  backGroundNode.classList.add('ifGetResponse');
-  })
+    .then(response => response.json())
+    .then((res) => {
+    textNode.innerText = res.activity;
+    titleNode.innerText = notBoredText;
+    backGroundNode.classList.add('ifGetResponse');
+    })
 })
